@@ -14,8 +14,20 @@
   <div>
     <ul id="quote-list">
     </ul>
+    <li class='quote-card'>
+      <blockquote class="blockquote">
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <footer class="blockquote-footer">Someone famous</footer>
+        <br>
+        <button class='btn-success'>Likes: <span>0</span></button>
+        <button class='btn-danger'>Delete</button>
+      </blockquote>
+    </li>
   </div>
+ 
+ 
   <hr>
+
   <div>
     <form id="new-quote-form">
       <div class="form-group">
@@ -26,7 +38,7 @@
         <label for="Author">Author</label>
         <input name="author" type="text" class="form-control" id="author" placeholder="Flatiron School">
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button id='submitButton'type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
   <script src="src/index.js"></script>
