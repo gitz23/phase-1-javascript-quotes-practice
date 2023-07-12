@@ -75,6 +75,25 @@ function postQuote(e){
 }
 
 
+//delete function 
+let deleteButton = document.getElementById('delete');
+let card = document.getElementsByClassName('quote-card');
+console.log(card);
+
+deleteButton.addEventListener('click', () =>{
+    alert('you\'ve clicked me')
+})
+
+// function deleteQuote(){
+//     let card = document.getElementsByClassName('quote-card')
+//     fetch('http://localhost:3000/quotes', {
+//         method: 'DELETE', 
+//         headers: {
+//             "Content-Type" : "application/json",
+//         }
+//     })
+// }
+
 
 
 
